@@ -1,3 +1,4 @@
+import "./Footer.css";
 
 function Footer() {
     const year = new Date().getFullYear();
@@ -6,7 +7,7 @@ function Footer() {
         <footer className="footer">
             <p className="footer_text">
                 © {year} Interview Simulator. Practice makes perfect.
-             </p>
+            </p>
         </footer>
     )
 }
