@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={ <HomePage />} />
           <Route path='/interview-setup' element={ <InterviewSetup />} />
-          <Route path='/interview' element={ <Interview />} />
+          <Route path='/interview/:sessionId' element={ <Interview />} />
         </Routes>
         <Footer />
       </main>
